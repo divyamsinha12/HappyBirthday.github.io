@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+}
+
+.h1
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+    
+
+.h1 h1{
+justify-items: center;
+}
+    
+.container {
+    height: 10000px;
+    width: 90%;
+    background-color:bisque;
+    display: grid;
+    margin-left: 5%;
+    grid-template-columns: 90%;
+    grid-template-rows: 4% 4% 4% 3% 3% 3% 3% 4% 4% 4% 4% 3% 3% 3% ;
+    /* margin-bottom: 4%; */
+    grid-row-gap: 0.5%;
+    grid-column-gap:1% ;
+    justify-content: center;
+}
+.myphoto{
+    height: 100%;
+    width: 100%;
+}
+.myphoto img{
+    height: 100%;
+    width: 100%;
+}
